@@ -1,0 +1,104 @@
+body{
+	background-color: #B6A9A6;	
+}
+#titre {
+	color: #EE360F;
+	font-size: 500%;	
+	position: relative;
+	left: 60px;
+	top: 20px;
+	
+}
+
+.yes:hover{
+	background-color: green;
+}
+
+#tjpg, #mpng, #gjpg, #wjpg{
+	width: 300px;
+	position :absolute;
+	border: 4px solid;
+}
+
+#mpng{
+	left: 350px;
+	top: 1250px;
+
+	
+}
+#tjpg{
+	left: 1250px;
+	top: 1250px;
+}
+#wjpg{
+	left: 1250px;
+	top:  2000px;
+}
+
+
+#gjpg{
+	left: 350px;
+	top:  2000px;
+}
+
+#mc, #tt, #wi, #gt{
+	width: 500px;
+	position :absolute;
+	font-family: verdana;
+	color: #353322;
+	font-weight:bold;
+	text-align: center;
+}
+#mc{
+	left: 260px;
+	top: 1570px;
+}
+#tt{
+	left: 1180px;
+	top: 1570px;
+}
+#wi{
+	left: 1180px;
+	top: 2330px;
+}
+
+#gt{ 
+	left: 260px;
+	top: 2370px;
+}
+#mci, #tti, #wii, #gti{
+	width: 500px;
+	position :absolute;
+	font-family: verdana;
+	color: #FE0000;
+	font-weight:bold;
+	text-align: center;
+	font-size: 40px;
+}
+#mci{
+	left: 260px;
+	top: 1170px;
+}
+#tti{
+	left: 1140px;
+	top: 1170px;
+}
+#wii{
+	left: 1160px;
+	top: 1930px;
+}
+
+#gti{ 
+	left: 260px;
+	top: 1930px;
+}
+#ds{
+	position :absolute;
+	left: 900px;
+	top: 3000px;
+	font-style: italic;
+
+}
+#mci:hover, #tti:hover, #wii:hover, #gti:hover{
+	background-color: #FE007F;
+}
